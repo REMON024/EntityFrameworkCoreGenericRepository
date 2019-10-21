@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using EntityFrameworkCore.GenericRepository.Models;
+using EntityFrameworkCore.GenericRepo.Models;
 
-namespace EntityFrameworkCore.GenericRepository
+namespace EntityFrameworkCore.GenericRepo
 {
     public interface IRepository<T> where T : BaseEntity
     {

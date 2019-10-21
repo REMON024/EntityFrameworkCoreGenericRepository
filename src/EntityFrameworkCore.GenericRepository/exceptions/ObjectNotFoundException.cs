@@ -1,4 +1,4 @@
-namespace EntityFrameworkCore.GenericRepository.Exceptions
+namespace EntityFrameworkCore.GenericRepo.Exceptions
 {
     public class ObjectNotFoundException : System.Exception
     {

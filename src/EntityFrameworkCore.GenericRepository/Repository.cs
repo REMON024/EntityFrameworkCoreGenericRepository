@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using EntityFrameworkCore.GenericRepository.Models;
-using EntityFrameworkCore.GenericRepository.Exceptions;
+using EntityFrameworkCore.GenericRepo.Models;
+using EntityFrameworkCore.GenericRepo.Exceptions;
 
-namespace EntityFrameworkCore.GenericRepository
+namespace EntityFrameworkCore.GenericRepo
 {
     public class Repository<T>: IRepository<T> where T: BaseEntity
     {
